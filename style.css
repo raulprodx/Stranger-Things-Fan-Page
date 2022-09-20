@@ -1,0 +1,497 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+body {
+	background-color: #252422;
+	font-family: 'Strait', sans-serif;
+	color: #fff;
+	font-size: 19px;
+
+}
+
+
+::selection {
+  color: #000;
+  background: rgba(230, 30, 30, 0.5);
+}
+
+.contenedor {
+	width: 90%;
+	margin: 20px auto 0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	 
+}
+
+.header {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	font-family: 'Liu Jian Mao Cao', cursive, sans-serif;
+	margin-bottom: 10px;
+
+}
+
+.logo img{
+	width: 100%;
+	height: auto;
+}
+.menu a {
+	text-decoration: none;
+	color: #fff;
+	margin-left: 40px;
+	font-size: 30px;
+
+}
+
+.menu a:hover {
+
+	opacity: 0.5;
+
+	
+}
+
+.main {
+	background-color: #252422;
+	width: 70%;
+}
+
+.main-characters {
+	background-color: #252422;
+	width: 100%;
+}
+
+.h1 {
+	display: none;
+}
+
+.img {
+	margin-bottom: 20px;
+}
+
+.img img {
+
+	width: 100%;
+	vertical-align: top;
+}
+
+.article h2 {
+	font-weight: normal;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 35px;
+}
+
+.article p {
+	margin-bottom: 15px;
+	line-height: 25px;
+}
+
+.img-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.img-container div {
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+/*-----------------PERSONAJES-----------------*/
+
+.personaje {
+	height: 300px;
+	width: 300px;
+	background-image: url('img/1.jpg');
+	background-size: cover;
+	border-radius: 5px;
+	border: 1px solid rgba(255, 255, 255, 1);
+	transition: all 1s linear;
+}
+
+.personaje:hover {
+
+	background-image: url('img/2.jpg');
+	height: 300px;
+	width: 300px;
+	transform: scale(1.1);
+	border: 1px solid rgba(230, 30, 30, 1);
+}
+
+.personaje:active {
+	background-image: url('img/2.jpg');
+	height: 300px;
+	width: 300px;
+	transform: scale(1.1);
+	border: 1px solid rgba(230, 30, 30, 1);
+
+
+}
+
+.personaje1 {
+	height: 300px;
+	width: 300px;
+	background-image: url('img/3.jpg');
+	background-size: cover;
+	border-radius: 5px;
+	border: 1px solid rgba(255, 255, 255, 1);
+	transition: all 1s linear;
+}
+
+.personaje1:hover {
+
+	background-image: url('img/4.jpg');
+	height: 300px;
+	width: 300px;
+	transform: scale(1.1);
+	border: 1px solid rgba(230, 30, 30, 1);
+}
+
+.personaje1:active {
+
+	background-image: url('img/4.jpg');
+	height: 300px;
+	width: 300px;
+	transform: scale(1.1);
+	border: 1px solid rgba(230, 30, 30, 1);
+}
+
+
+.personaje2 {
+	height: 300px;
+	width: 300px;
+	background-image: url('img/5.jpg');
+	background-size: cover;
+	border-radius: 5px;
+	border: 1px solid rgba(255, 255, 255, 1);
+	transition: all 1s linear;
+}
+
+.personaje2:hover {
+
+	background-image: url('img/6.jpg');
+	height: 300px;
+	width: 300px;
+	transform: scale(1.1);
+	border: 1px solid rgba(230, 30, 30, 1);
+}
+
+.personaje2:active {
+
+	background-image: url('img/6.jpg');
+	height: 300px;
+	width: 300px;
+	transform: scale(1.1);
+	border: 1px solid rgba(230, 30, 30, 1);
+}
+
+.personaje3 {
+	height: 300px;
+	width: 300px;
+	background-image: url('img/7.jpg');
+	background-size: cover;
+	border-radius: 5px;
+	border: 1px solid rgba(255, 255, 255, 1);
+	transition: all 1s linear;
+}
+
+.personaje3:hover {
+
+	background-image: url('img/8.jpg');
+	height: 300px;
+	width: 300px;
+	transform: scale(1.1);
+	border: 1px solid rgba(230, 30, 30, 1);
+}
+
+.personaje3:active {
+
+	background-image: url('img/8.jpg');
+	height: 300px;
+	width: 300px;
+	transform: scale(1.1);
+	border: 1px solid rgba(230, 30, 30, 1);
+}
+
+.personaje4 {
+	height: 300px;
+	width: 300px;
+	background-image: url('img/9.jpg');
+	background-size: cover;
+	border-radius: 5px;
+	border: 1px solid rgba(255, 255, 255, 1);
+	transition: all 1s linear;
+}
+
+.personaje4:hover {
+
+	background-image: url('img/10.jpg');
+	height: 300px;
+	width: 300px;
+	transform: scale(1.1);
+	border: 1px solid rgba(230, 30, 30, 1);
+}
+
+.personaje4:active {
+
+	background-image: url('img/10.jpg');
+	height: 300px;
+	width: 300px;
+	transform: scale(1.1);
+	border: 1px solid rgba(230, 30, 30, 1);
+}
+
+.personaje5 {
+	height: 300px;
+	width: 300px;
+	background-image: url('img/11.jpg');
+	background-size: cover;
+	border-radius: 5px;
+	border: 1px solid rgba(255, 255, 255, 1);
+	transition: all 1s linear;
+}
+
+.personaje5:hover {
+
+	background-image: url('img/12.jpg');
+	height: 300px;
+	width: 300px;
+	transform: scale(1.1);
+	border: 1px solid rgba(230, 30, 30, 1);
+}
+
+.personaje5:active {
+
+	background-image: url('img/12.jpg');
+	height: 300px;
+	width: 300px;
+	transform: scale(1.1);
+	border: 1px solid rgba(230, 30, 30, 1);
+}
+
+.personaje6 {
+	height: 300px;
+	width: 300px;
+	background-image: url('img/13.jpg');
+	background-size: cover;
+	border-radius: 5px;
+	border: 1px solid rgba(255, 255, 255, 1);
+	transition: all 1s linear;
+}
+
+.personaje6:hover {
+
+	background-image: url('img/14.jpg');
+	height: 300px;
+	width: 300px;
+	transform: scale(1.1);
+	border: 1px solid rgba(230, 30, 30, 1);
+}
+
+.personaje6:active {
+
+	background-image: url('img/14.jpg');
+	height: 300px;
+	width: 300px;
+	transform: scale(1.1);
+	border: 1px solid rgba(230, 30, 30, 1);
+}
+
+
+.personaje7 {
+	height: 300px;
+	width: 300px;
+	background-image: url('img/15.jpg');
+	background-size: cover;
+	border-radius: 5px;
+	border: 1px solid rgba(255, 255, 255, 1);
+	transition: all 1s linear;
+}
+
+.personaje7:hover {
+
+	background-image: url('img/16.jpg');
+	height: 300px;
+	width: 300px;
+	transform: scale(1.1);
+	border: 1px solid rgba(230, 30, 30, 1);
+}
+
+.personaje7:active {
+
+	background-image: url('img/16.jpg');
+	height: 300px;
+	width: 300px;
+	transform: scale(1.1);
+	border: 1px solid rgba(230, 30, 30, 1);
+}
+
+.personaje8 {
+	height: 300px;
+	width: 300px;
+	background-image: url('img/17.jpg');
+	background-size: cover;
+	border-radius: 5px;
+	border: 1px solid rgba(255, 255, 255, 1);
+	transition: all 1s linear;
+}
+
+.personaje8:hover {
+
+	background-image: url('img/18.jpg');
+	height: 300px;
+	width: 300px;
+	transform: scale(1.1);
+	border: 1px solid rgba(230, 30, 30, 1);
+}
+
+.personaje8:active {
+
+	background-image: url('img/18.jpg');
+	height: 300px;
+	width: 300px;
+	transform: scale(1.1);
+	border: 1px solid rgba(230, 30, 30, 1);
+}
+
+.personaje9 {
+	height: 300px;
+	width: 300px;
+	background-image: url('img/19.jpg');
+	background-size: cover;
+	border-radius: 5px;
+	border: 1px solid rgba(255, 255, 255, 1);
+	transition: all 1s linear;
+}
+
+.personaje9:hover {
+
+	background-image: url('img/20.jpg');
+	height: 300px;
+	width: 300px;
+	transform: scale(1.1);
+	border: 1px solid rgba(230, 30, 30, 1);
+}
+
+.personaje9:active {
+
+	background-image: url('img/20.jpg');
+	height: 300px;
+	width: 300px;
+	transform: scale(1.1);
+	border: 1px solid rgba(230, 30, 30, 1);
+}
+
+.phone-phrase  {
+
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+
+/*-----------------FIN PERSONAJES-----------------*/
+
+aside {
+	width: 30%;
+	padding-left: 20px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.tw {
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+}
+
+footer {
+	background-color: rgba(230, 30, 30, 0.2);
+	width: 100%;
+	margin-top: 10px;
+	padding: 15px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: no-wrap;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.autor {
+	color: #fff;
+	
+}
+.redes-sociales a {
+	color: #fff;
+	margin-left: 5px;
+}
+
+.redes-sociales a:hover {
+
+	opacity: 0.5;
+}
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 650px) {
+
+	.img-container div {
+		margin-right: 0px;
+	}
+
+}
+
+
+@media screen and (max-width: 800px) {
+
+	.main {
+		width: 100%;
+	}
+
+	aside {
+		width: 100%;
+		padding-left: 0px;
+	}
+
+	.tw1 {
+		margin-bottom: 10px;
+	}
+
+
+}
+
+@media screen and (max-width: 1030px) {
+
+	.header {
+		width: 100%;
+		flex-direction: column;
+	}
+	.menu {
+		width: 100%;
+		background-color: rgba(230, 30, 30, 0.2);
+		padding: 20px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.logo {
+		margin-bottom: 20px;
+	}
+
+	.menu a {
+		margin: 0 20px;
+	}
+}
